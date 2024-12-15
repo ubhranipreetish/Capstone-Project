@@ -131,3 +131,54 @@ nav .nav-links a {
     cursor: pointer;
   }
   
+  .clients {
+    /* margin: 150px 0; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  .clients h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+    margin: 20px 0;
+  }
+  /* Client Say Sections */
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+  }
+  .card {
+    margin: 20px;
+    margin-top: 50px;
+    width: 326px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 10px;
+    border-radius: 10px;
+    place-items: center;
+  }
+  .card img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  .card-detail {
+    margin-top: 10px;
+  }
+  .border {
+    margin-top: 10px;
+    height: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  .card-head p {
+    font-weight: 500;
+    color: black;
+  }
+  
+  .card-head p + p {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
