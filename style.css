@@ -182,3 +182,66 @@ nav .nav-links a {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
   }
+
+
+.endhead {
+  padding: 156px 10px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-wrap: wrap;
+  margin: 20px;
+}
+
+.ending div div {
+  /* text-align: justify; */
+  width: 50vw; /*Remove While making it Resposive*/
+  font-size: 30px;
+}
+
+.ending img {
+  width: 100vw;
+  height: auto;
+}
+.endfoot {
+  padding: 156px 10px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  text-wrap: wrap;
+  margin: 20px;
+}
+.endfoot p {
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-top: 10em;
+  align-items: center;
+}
+
+footer button {
+  font-family: "Roboto Mono", monospace !important;
+  padding: 12px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer button:hover {
+  background-color: rgb(251, 53, 53);
+  color: white;
+}
+
+.main-container {
+  width: 100%;
+  height: 35vh;
+  overflow: hidden;
+  position: relative;
+}
