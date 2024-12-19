@@ -316,24 +316,6 @@ footer button:hover {
   }
 }
 
-@media (max-width: 515px) {
-  .projects .about {
-    display: block;
-  }
-  .details div h3 {
-    font-size: 30px;
-  }
-  .details div p {
-    font-size: 15px;
-  }
-  .header h1 {
-    font-size: 42px;
-  }
-
-  .ending div h2 {
-    font-size: 20px;
-  }
-}
 
 @media (max-width: 1110px) {
   .card {
