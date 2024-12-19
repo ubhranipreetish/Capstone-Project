@@ -260,6 +260,10 @@ footer button:hover {
   animation-delay: 9s;
 }
 
+.images:hover {
+  transform: scale(1.05);
+}
+
 @keyframes autoRun {
   from {
     left: 100%;
