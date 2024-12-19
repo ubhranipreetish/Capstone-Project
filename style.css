@@ -55,41 +55,41 @@ nav .nav-links a {
     width: 100%;
     height: auto;
 }
-.frames {
+.projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
-.frames img {
+.projects img {
     width: 400px;
     height: auto;
-    padding: 10px;
+
 }
 
-.frames p {
-    padding: 10px;
+.projects p {
+
     padding-top: 0px;
     padding-bottom: 2px;
     font-size: 17px;
 }
 
-.frames p:nth-child(3) {
+.projects p:nth-child(3) {
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     font-size: 15px;
 }
 .about {
     margin: 0 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
   }
   .about div h4 {
     font-size: 40px;
   }
-  .m-10 {
+  .me {
     margin: 20px;
   }
   .items {
@@ -109,8 +109,9 @@ nav .nav-links a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 80px;
   }
-  .mb-10 {
+  .See-My {
     margin-bottom: 50px;
   }
   .creations h1 {
@@ -122,7 +123,7 @@ nav .nav-links a {
   }
   .creations button {
     border: none;
-    font-family: "Roboto Mono", monospace !important;
+    font-family: "Roboto Mono", monospace;
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 18px;
@@ -132,7 +133,6 @@ nav .nav-links a {
   }
   
   .clients {
-    /* margin: 150px 0; */
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
@@ -143,7 +143,6 @@ nav .nav-links a {
     font-weight: 800;
     margin: 20px 0;
   }
-  /* Client Say Sections */
   .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -188,14 +187,12 @@ nav .nav-links a {
   padding: 156px 10px;
   display: flex;
   justify-content: start;
-  align-items: start;
   text-wrap: wrap;
   margin: 20px;
 }
 
 .ending div div {
-  /* text-align: justify; */
-  width: 50vw; /*Remove While making it Resposive*/
+  width: 50vw;               /*Remove While making it Resposive*/
   font-size: 30px;
 }
 
@@ -207,7 +204,6 @@ nav .nav-links a {
   padding: 156px 10px;
   display: flex;
   justify-content: end;
-  align-items: end;
   text-wrap: wrap;
   margin: 20px;
 }
@@ -224,7 +220,7 @@ footer {
 }
 
 footer button {
-  font-family: "Roboto Mono", monospace !important;
+  font-family: "Roboto Mono", monospace;
   padding: 12px 20px;
   background-color: white;
   color: black;
