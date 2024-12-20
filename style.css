@@ -264,6 +264,11 @@ footer button:hover {
   transform: scale(1.05);
 }
 
+.nav-links a:hover {
+  color: rgb(198, 134, 50);
+
+}
+
 @keyframes autoRun {
   from {
     left: 100%;
