@@ -278,12 +278,12 @@ footer button:hover {
   }
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 1054px) {
   .header h1 {
     font-size: 100px;
   }
 }
-@media (max-width: 889px) {
+@media (max-width: 879px) {
   .header h1 {
     font-size: 80px;
   }
@@ -301,10 +301,10 @@ footer button:hover {
 }
 @media (max-width: 440px) {
   .projects {
-    width: 85%;
+    width: 90%;
   }
   .images {
-    width: 85%;
+    width: 90%;
   }
   .projects img {
     width: 100%;
